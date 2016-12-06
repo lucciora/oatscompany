@@ -81,8 +81,9 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-4 col-lg-offset-2">
-					<p>안녕하세요. 저는 강의찬이라고 합니다. <br>
-					오늘은 시작</p>
+					<p>
+						안녕하세요. 저는 강의찬이라고 합니다. <br> 오늘은 시작
+					</p>
 				</div>
 				<div class="col-lg-4"></div>
 			</div>
@@ -90,16 +91,28 @@
 	</section>
 
 
-	<!-- Portfolio Grid Section -->
+	<!-- About Section -->
 	<section id="portfolio">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
 					<h2>Portfolio</h2>
 				</div>
-
 			</div>
+			<div class="row">
+				<div class="col-lg-4 col-lg-offset-2">
+					<ul>
+						<li style="list-type-sytle:none;"><a style="list-type-sytle:none;">Watcha</a></li>
+						<li style="list-type-sytle:none;"><a style="list-type-sytle:none;">Retoon</a></li>
+						<li style="list-type-sytle:none;"><a style="list-type-sytle:none;">Oats</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4"></div>
+			</div>
+		</div>
 	</section>
+
+
 
 
 
