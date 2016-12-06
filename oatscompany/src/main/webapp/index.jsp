@@ -7,15 +7,6 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <html>
-<style>
-@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
-
-body{
-	margin-left: 50px;
-	font-weight: bold;
-	font-family: 'nanumgothic';
-}
-</style>
 <head>
 <meta charset="utf-8">
 <title>Welcome</title>
@@ -31,21 +22,26 @@ body{
 
 </head>
 <body>
-	<header id="header">
-    <h2>기후 데이터와 농작물 주산지 데이터 분석을 통한 적합 농작물 제시</h2>
-    </header>
+	<div id="header">
+    	<p id="title">기후 데이터와 농작물 주산지 데이터 분석을 통한 적합 농작물 제시</p>
+    </div>
     <div id="introduction">
         <div id="sub-title"><P>Introducing Members</P></div>
+        <br>
         <ul>
         	<li><a class="memebers" id="uichan" href="<c:url value='/uichan' />">강의찬</a></li>
         	<li><a class="memebers" id="seongho" href="<c:url value='/seongho' />">노성호</a></li>
         	<li><a class="memebers" id="jiin" href="<c:url value='/jiin' />">박지인</a></li>
         </ul>
-        <p>안녕하세요! Oats Company입니다. 현재 AWS EMR(spark)를 사용할 수 없습니다.<br>
+        <br>
+        <div>
+        <p>안녕하세요! Oats Company입니다. 현재 AWS EMR(spark)를 사용할 수 없습니다.</p>
+        <p id="line">
            1. 지도에서 농작물을 재배하려는 지역을 선택하세요.<br>
            2. 날짜를 선택하세요.<br>
            3. 'What To Grow' 버튼을 누르시면 분석된 데이터의 시각화 자료를 보실 수 있습니다.
-         </p>
+        </p>
+        </div>
     </div>
     
     

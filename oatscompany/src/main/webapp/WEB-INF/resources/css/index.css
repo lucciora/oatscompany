@@ -1,9 +1,10 @@
 @CHARSET "UTF-8";
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+
 #header {
-	width:90%;
-	height: 27px;
-	background:#76B1D1;
 	width:100%;
+	height: 50px;
+	background:#0057e7;
 	margin: 0; 
 	text-align: center;
 	padding:0;
@@ -29,11 +30,14 @@
 
 body {
 	position:absolute;
-	background:#F5F5DC;
 	margin: 0;
 	width: 100%;
 	overflow: hidden;
-	padding:5px;
+	padding:10px;
+	font-weight: bold;
+	font-family: 'nanumgothic';
+	font-size: 20px;
+}
 }
 section {
 	margin:10px;
@@ -43,7 +47,9 @@ section {
 	margin:5px;
 	padding:0px;
 }
-
+a{
+	
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -63,4 +69,16 @@ li {
 	margin:0px;
 	padding:0px;
 	height:20px;
+}
+
+#line{
+	width: 50%;
+	border-style:solid;
+	padding: 10px;
+}
+#title {
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	
 }
