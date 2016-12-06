@@ -55,19 +55,9 @@ hr.star-light {
 	border-color: #fff
 }
 
-hr.star-light:after {
-	background-color: #18BC9C;
-	color: #fff
-}
 
-hr.star-primary {
-	border-color: #2C3E50
-}
 
-hr.star-primary:after {
-	background-color: #fff;
-	color: #2C3E50
-}
+
 
 .navbar-custom .navbar-brand, .navbar-custom .navbar-brand.active,
 	.navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand:focus,
@@ -82,7 +72,7 @@ hr.star-primary:after {
 
 header {
 	text-align: center;
-	background: #18BC9C
+	background: #3299BB
 }
 
 header .container {
@@ -120,7 +110,7 @@ header .intro-text .skills {
 }
 
 .navbar-custom {
-	background: #2C3E50;
+	background: #424242;
 	font-weight: 700;
 	border: none
 }
