@@ -61,14 +61,12 @@
 						placeholder="DATE">
 				</div>
 				<div>
-					<input type="submit" value="What To Grow">
+					<input type="submit" value="What To Grow" >
 				</div>
 				<input type="hidden" id="latLng" value="" />
 			</form:form>
 		</aside>
 	</section>
-
-
 
 	<script
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXxG1WGZ_ttI--0N8V_s0UZ0LNrlksyw4&callback=initMap"

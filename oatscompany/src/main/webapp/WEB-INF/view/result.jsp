@@ -72,28 +72,18 @@ body, body *{
     padding: 30px 30px;
 }
 
-#footer {
-    padding: 30px 30px;
-    height: 50px;
-    line-height: 50px;
-    background-color: #1c1d1f;
-    color: white;
-}
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
 </head>
 <body>
-	result
-	<script type="text/javascript"
-		src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://d3js.org/d3.v4.min.js"></script>
 	<script src="https://sdk.amazonaws.com/js/aws-sdk-2.1.12.min.js"></script>
 
 	<div id="topmenu">
     <ul>
-        <li onclick="getData('grid.csv','GridChart')">Grid</li>
-        <li onclick="getData('https://s3.ap-northeast-2.amazonaws.com/oatsdata/originaldata/bar.csv','BarChart')">Bar</li>
+       <li onclick="getData('https://s3.ap-northeast-2.amazonaws.com/oatsdata/originaldata/number.csv','BarChart')">결과확인</li>
     </ul>
 	</div>
 	<div id="content"></div>
@@ -117,7 +107,7 @@ body, body *{
     function debugging(target) {
         console.log(target + ":" + JSON.stringify(target))
     }
-</script>
+	</script>
 
 		
 
