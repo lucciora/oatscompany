@@ -83,7 +83,7 @@ body, body *{
 
 	<div id="topmenu">
     <ul>
-       <li onclick="getData('https://s3.ap-northeast-2.amazonaws.com/oatsdata/originaldata/number.csv','BarChart')">결과확인</li>
+       <li onclick="getData('s3주소','BarChart')">결과확인</li>
     </ul>
 	</div>
 	<div id="content"></div>
@@ -102,10 +102,6 @@ body, body *{
             console.log(dataSet[0])
             $("#content").load(target);
         })
-    }
-    /* debug */
-    function debugging(target) {
-        console.log(target + ":" + JSON.stringify(target))
     }
 	</script>
 

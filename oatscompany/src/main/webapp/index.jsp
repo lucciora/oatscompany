@@ -7,6 +7,15 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <html>
+<style>
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+
+body{
+	margin-left: 50px;
+	font-weight: bold;
+	font-family: 'nanumgothic';
+}
+</style>
 <head>
 <meta charset="utf-8">
 <title>Welcome</title>
@@ -23,7 +32,7 @@
 </head>
 <body>
 	<header id="header">
-    <h3>기후 데이터와 농작물 주산지 데이터 분석을 통한 적합 농작물 제시</h3>
+    <h2>기후 데이터와 농작물 주산지 데이터 분석을 통한 적합 농작물 제시</h2>
     </header>
     <div id="introduction">
         <div id="sub-title"><P>Introducing Members</P></div>
