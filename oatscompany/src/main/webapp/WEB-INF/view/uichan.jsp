@@ -80,23 +80,51 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-4 col-lg-offset-2">
-					<p>
-						안녕하세요. 저는 강의찬이라고 합니다. 오늘은 시작
+			<br>
+				<div class="col-lg-offset-2">
+					<p>안녕하세요. 저는 강의찬이라고 합니다.
+					   저는 시스템 개발자로 커리어를 시작하고 싶습니다.
+					   
+					
+					
 					</p>
 				</div>
-				<div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="https://kr.linkedin.com/in/uichan-luke-kang-3a2156117" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Linkedin
-                    </a>
-                    <a href="http://edu.sw.or.kr" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> 소프트웨어 산업협회
-                    </a>
-                    <a href="https://github.com/lucciora/oatscompany.git" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Github
-                    </a>
-                </div>
+				<div class="col-lg-12 text-center">
+						<ul style="display: inline-block">
+							Language
+							<li>Javascript</li>
+							<li>Java</li>
+							<li>Python</li>
+							<li>Scala</li>
+							
+						</ul>
+						<ul style="display: inline-block">
+							System
+							<li>Oracle database</li>
+							<li>Apache Hadoop</li>
+							<li>AWS</li>
+							<li>TCP/IP</li>
+						</ul>
+						<ul style="display: inline-block">
+							Big data Analysis
+							<li>Linear Regression</li>
+							<li>Deep Learning</li>
+							<li>SVM</li>
+							<li>etc.</li>
+						</ul>
 			</div>
+			<div class="col-lg-8 col-lg-offset-2 text-center">
+				<a href="https://kr.linkedin.com/in/uichan-luke-kang-3a2156117"
+					class="btn btn-lg btn-outline"> <i class="fa fa-download"></i>
+					Linkedin
+				</a> <a href="http://edu.sw.or.kr" class="btn btn-lg btn-outline"> <i
+					class="fa fa-download"></i> 소프트웨어 산업협회
+				</a> <a href="https://github.com/lucciora/oatscompany.git"
+					class="btn btn-lg btn-outline"> <i class="fa fa-download"></i>
+					Github
+				</a>
+			</div>
+		</div>
 		</div>
 	</section>
 
@@ -111,21 +139,22 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-offset-2">
+				<br>
 					<ul>
-						<li style="list-type-sytle:none;"><a style="list-type-sytle:none;">Watcha - 왓챠! </a></li>
-						<li style="list-type-sytle:none;"><a style="list-type-sytle:none;">Retoon - 사용자 부여 평점을 통한 웹툰 추천 시스템</a></li>
-						<li style="list-type-sytle:none;"><a style="list-type-sytle:none;">Oats Company - 기후 데이터와 주산지 데이터를 통한 적합 농작물 제시</a></li>
+						<li style="list-type-sytle: none;"><a
+							style="list-type-sytle: none;">Watcha - 왓챠! </a></li>
+						<li style="list-type-sytle: none;"><a
+							style="list-type-sytle: none;">Retoon - 사용자 부여 평점을 통한 웹툰 추천
+								시스템</a></li>
+						<li style="list-type-sytle: none;"><a
+							style="list-type-sytle: none;">Oats Company - 기후 데이터와 주산지
+								데이터를 통한 적합 농작물 제시</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-4"></div>
 			</div>
 		</div>
 	</section>
-
-
-
-
-
 
 	<!-- Bootstrap Core JavaScript -->
 	<script src="<c:url value='/resources/js/bootstrap.min.js'/>"></script>
