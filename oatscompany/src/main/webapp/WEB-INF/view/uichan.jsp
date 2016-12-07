@@ -60,7 +60,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<img class="img-responsive"
-						src="<c:url value='/resources/img/profile_uichan.JPG' />" alt="">
+						src="<c:url value='/resources/img/profile_uichan.jpg' />" alt="">
 					<div class="intro-text">
 						<span class="name">Kang Uichan</span> <span class="skills">System
 							developer, Back-end developer, Data scientist</span>
@@ -82,10 +82,20 @@
 			<div class="row">
 				<div class="col-lg-4 col-lg-offset-2">
 					<p>
-						안녕하세요. 저는 강의찬이라고 합니다. <br> 오늘은 시작
+						안녕하세요. 저는 강의찬이라고 합니다. 오늘은 시작
 					</p>
 				</div>
-				<div class="col-lg-4"></div>
+				<div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="https://kr.linkedin.com/in/uichan-luke-kang-3a2156117" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Linkedin
+                    </a>
+                    <a href="http://edu.sw.or.kr" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> 소프트웨어 산업협회
+                    </a>
+                    <a href="https://github.com/lucciora/oatscompany.git" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Github
+                    </a>
+                </div>
 			</div>
 		</div>
 	</section>
@@ -100,11 +110,11 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-4 col-lg-offset-2">
+				<div class="col-lg-offset-2">
 					<ul>
-						<li style="list-type-sytle:none;"><a style="list-type-sytle:none;">Watcha</a></li>
-						<li style="list-type-sytle:none;"><a style="list-type-sytle:none;">Retoon</a></li>
-						<li style="list-type-sytle:none;"><a style="list-type-sytle:none;">Oats</a></li>
+						<li style="list-type-sytle:none;"><a style="list-type-sytle:none;">Watcha - 왓챠! </a></li>
+						<li style="list-type-sytle:none;"><a style="list-type-sytle:none;">Retoon - 사용자 부여 평점을 통한 웹툰 추천 시스템</a></li>
+						<li style="list-type-sytle:none;"><a style="list-type-sytle:none;">Oats Company - 기후 데이터와 주산지 데이터를 통한 적합 농작물 제시</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-4"></div>
