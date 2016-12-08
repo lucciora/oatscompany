@@ -50,7 +50,7 @@
 		/* y축의 범위 설정 */
 		var y = d3.scaleLinear().rangeRound([ chartHeight, 0 ]) // 위 -> 아래
 		.domain([ 0, d3.max(dataSet.map(function(d) {
-			return +d["number"]
+			return +d["meancorr"]
 		})) ])
 
 		/* axis 추가 */
@@ -91,21 +91,23 @@
 		}).duration(function(d, i) {
 			return i * 60;
 		})
+		
 		/* y(d.cpu_user); --> cpu_user 값을 scale에 맞게 비율 변환*/
 		.attr("y", function(d) {
 			//return d.number //<- 비율 적용 전
-			return y(d.number)
+			return y(d.meancorr)
 		}).attr("height", function(d, i) {
 			//return chartHeight - d.cpu_user <- 비율 적용 전
-			return chartHeight - y(d.number);
+			return chartHeight - y(d.meancorr);
 		})
+		
 		/*막대에 수치표시*/
 		item.enter().append("text").attr("x", function(d, i) {
 			return i * (chartWidth / dataSet.length) + 50;
 		}).attr("y", function(d) {
 			return y(d.number) - 3;
 		}).style("opacity", 0).text(function(d, i) {
-			return d.number;
+			return d.meancorr;
 		}).transition()
 		/*.delay(500)
 		 .duration(800)*/

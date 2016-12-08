@@ -93,7 +93,7 @@ body, body *{
 
     function getData(file, target) {
         /* data 불러오기 */
-        d3.csv("https://s3.ap-northeast-2.amazonaws.com/oatsdata/originaldata/number.csv", function(error, csv) {
+        d3.csv("https://s3.ap-northeast-2.amazonaws.com/oatsdata/originaldata/d3.csv", function(error, csv) {
             if (error) {
                 console.log(error);
                 return false;
