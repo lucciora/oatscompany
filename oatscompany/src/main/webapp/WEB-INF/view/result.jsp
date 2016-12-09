@@ -3,7 +3,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<title>OatsCompany</title>
 <style type="text/css">
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
 text {
 	fill: black;
 	font-size: 12px;
@@ -30,7 +32,7 @@ svg {
 body, body *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'nanumgothic';
     font-size: 15px;
 }
 

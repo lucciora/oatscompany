@@ -10,19 +10,19 @@
 		var svgWidth = 1600;
 		// var svgHeight = 300;
 		// Legend를 넣기 위해 높이 늘림
-		var svgHeight = 300;
+		var svgHeight = 400;
 		var svg = content.append("svg").attr("width", svgWidth).attr("height", svgHeight);
 
 		/* canvas 내부에 공간을 두어 그래프 그리기 */
 		
 		// Legend를 넣기 위해 right를 늘림
 		var margin = {
-			top : 20,
+			top : 40,
 			right : 30,
-			bottom : 25,
+			bottom : 40,
 			left : 50
 		};
-		//var legend_margin_left = 40
+
 		var chartWidth = svgWidth - margin.left - margin.right;
 		var chartHeight = svgHeight - margin.top - margin.bottom;
 		/* 그라데이션 색상 설정 */
@@ -44,17 +44,17 @@
 		/* x축의 범위 설정 */
 		var x = d3.scaleBand().rangeRound([ 0, chartWidth ]) // 왼 -> 오
 		.domain(dataSet.map(function(d) {
-			return d["produce"]
+			return d.produce
 		}))
 
 		/* y축의 범위 설정 */
 		var y = d3.scaleLinear().rangeRound([ chartHeight, 0 ]) // 위 -> 아래
 		.domain([ 2.5, d3.max(dataSet.map(function(d) {
-			return +d["meancorr"]
+			return d.meancorr
 		})) ])
 
 		/* axis 추가 */
-		// translate(왼,위)
+		// translate(왼,위) : 축 이동시킴
 		var xAxis = svg.append("g").attr("transform",
 				"translate(" + margin.left + ", " + (margin.top + chartHeight)+ ")").call(d3.axisBottom(x));
 						
@@ -104,7 +104,7 @@
 		item.enter().append("text").attr("x", function(d, i) {
 			return i * (chartWidth / dataSet.length) + 15;
 		}).attr("y", function(d) {
-			return y(d.number) - 3;
+			return y(d.meancorr)-5;
 		}).style("opacity", 0).text(function(d, i) {
 			return d.meancorr;
 		}).transition()

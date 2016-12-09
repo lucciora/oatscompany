@@ -9,7 +9,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Welcome</title>
+<title>OatsCompany</title>
 <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.7.10.min.js"></script>
