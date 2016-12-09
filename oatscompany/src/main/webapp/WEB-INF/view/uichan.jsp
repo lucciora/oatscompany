@@ -142,7 +142,7 @@
 				<br>
 					<ul>
 						<li style="list-type-sytle: none;"><a
-							style="list-type-sytle: none;">Watcha - 왓챠! </a></li>
+							style="list-type-sytle: none;">Watchi - 영화 취향관리· 고객매칭 어플리케이션 </a></li>
 						<li style="list-type-sytle: none;"><a
 							style="list-type-sytle: none;">Retoon - 사용자 부여 평점을 통한 웹툰 추천
 								시스템</a></li>

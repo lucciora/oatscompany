@@ -8,7 +8,7 @@
 
 			var marker = new google.maps.Marker({
 				draggable : true,
-				position : myLatlng,
+				//position : myLatlng,
 				map : map,
 				title : "Your location"
 			});
@@ -25,6 +25,8 @@
 				document.getElementById("latLng").value = event.latLng;
 				marker.setPosition(event.latLng);
 				geocodeLatLng(geocoder, map, event.latLng.lat(), event.latLng.lng());
+				map.setCenter(marker.getPosition());
+				map.setZoom(10);
 
 			});
 
