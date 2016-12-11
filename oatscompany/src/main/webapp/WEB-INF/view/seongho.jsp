@@ -62,8 +62,8 @@
 					<img class="img-responsive"
 						src="<c:url value='/resources/img/profile_seongho.jpg' />" alt="">
 					<div class="intro-text">
-						<span class="name">Roh SeongHo</span> <span class="skills">System
-							developer, Back-end developer, Data scientist</span>
+						<span class="name">Roh SeongHo</span> <span class="skills">
+							 Back-end developer, Web developer, Software Engineer, Data scientist</span>
 					</div>
 				</div>
 			</div>
@@ -141,7 +141,7 @@
 				<div class="col-lg-offset-2">
 				<br>
 					<ul>
-						<li style="list-type-sytle: none;"><a
+						<li style="list-type-sytle: none;"><a href="https://drive.google.com/drive/folders/0B1jq8Q9CurhcTGlBUnB0eVFKZUk?usp=sharing"
 							style="list-type-sytle: none;">Money Ball - EPL 경기 데이터를 활용한 
 							축구 경기 결과 예측</a></li>
 						<li style="list-type-sytle: none;"><a
