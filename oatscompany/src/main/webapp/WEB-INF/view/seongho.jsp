@@ -119,7 +119,7 @@
 					Linkedin
 				</a> <a href="http://edu.sw.or.kr" class="btn btn-lg btn-outline"> <i
 					class="fa fa-download"></i> 소프트웨어 산업협회
-				</a> <a href="https://github.com/lucciora/oatscompany.git"
+				</a> <a href="https://github.com/nsho77"
 					class="btn btn-lg btn-outline"> <i class="fa fa-download"></i>
 					Github
 				</a>
